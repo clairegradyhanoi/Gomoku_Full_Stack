@@ -1,0 +1,15 @@
+.input{
+    background-color: #ebebde;
+    display: flex;
+    color: #777764;
+    width: 350px;
+    height: 30px;
+    border-radius: 0.5rem;
+    margin: 5px;
+    border: solid #4f4747;
+}
+
+::placeholder{
+    color: #777764;
+    font-weight: bolder;
+}

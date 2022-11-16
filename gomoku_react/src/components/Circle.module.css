@@ -1,0 +1,27 @@
+.circle {
+    display: grid;
+    height: 2rem;
+    width: 2rem;
+    margin: 3px;
+    border: 3px solid #4f4747;
+    border-radius: 50%;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  .circle.white {
+    background-color: #FFFFFF;
+  }
+
+  .circle.black {
+    background-color: #000000;
+  }
+  
+  .circle.free {
+    background-color: #ebebde;
+  }
+  
+  .circle.free:hover {
+    background-color: #4f4747;
+    opacity: 0.5;
+  }
