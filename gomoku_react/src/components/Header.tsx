@@ -11,7 +11,14 @@ export default function Header() {
     if (user) {
       if (location.pathname === '/'){
       return <>
-       <button className={style.action} onClick={() => navigate(`games`)}>Previous Games</button>
+       <button className={style.action} onClick={() => navigate('dashboard')}>Dashboard</button>
+       <button className={style.action} onClick={() => {logout() 
+        navigate('/')}}>Logout</button>
+      </>
+      }
+      else{
+        return <>
+       <button className={style.action} onClick={() => navigate('home')}>Home</button>
        <button className={style.action} onClick={() => {logout() 
         navigate('/')}}>Logout</button>
       </>
@@ -29,7 +36,7 @@ export default function Header() {
   return (
     <header className={style.header}>
       <div className={style.container}>
-        <Link to="/">Gomoku      </Link>
+        <Link to="/">St Edmond's College Canberra  </Link>
         <div className={style.actions}>
           { getActions() }
         </div>

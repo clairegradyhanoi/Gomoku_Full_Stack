@@ -1,2 +1,2 @@
-export * from './Games'
 export * from './User'
+export * from './DailyNotices'

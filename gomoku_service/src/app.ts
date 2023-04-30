@@ -2,7 +2,7 @@
  import dotenv from 'dotenv';
  import cors from "cors";
  import connectDB from './util/connectDB'; 
-import gamesHandler from './handler/games.handler'
+import dailyNoticesHandler from './handler/dailyNotices.handler'
 import authHandler from './handler/auth.handler';
 
  dotenv.config();
@@ -11,7 +11,7 @@ import authHandler from './handler/auth.handler';
  const port = process.env.PORT;
  app.use(cors())
  app.use(express.json({ limit: '500kb' }));
- app.use('/api/games', gamesHandler)
+ app.use('/api/dailyNotices', dailyNoticesHandler)
  app.use('/api/auth', authHandler)
 // {
 //         origin: process.env.allowHost || true
