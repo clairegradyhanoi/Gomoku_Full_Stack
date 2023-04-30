@@ -2,7 +2,7 @@ GOMOKU-FULLSTACK: A Simple Full Stack Web App that Allows you to Play Gomoku, a 
 Author: Claire Grady
 Version 1.0
 
-1. install dependencies: yarn
+1. install dependencies: cd into frontEnd and run yarn, then cd into backEnd and run yarn
 2. cd into the gomoku_service directory
 3. start the server: yarn run dev
 4. cd into the gomoku_react directory
@@ -15,6 +15,3 @@ Postman Collection Link: https://www.getpostman.com/collections/1393d5f5a1c6e239
 MongoDB Credentials: email: clairegradyhanoi@gmail.com password: uneawp22
 
 User Credentials for Gomoku: username: admin and password: admin have been setup. Alternatively, you can just register as a new user.# 594
-# 594
-# 594
-# 594
