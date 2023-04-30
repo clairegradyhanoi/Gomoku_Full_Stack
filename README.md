@@ -17,3 +17,4 @@ MongoDB Credentials: email: clairegradyhanoi@gmail.com password: uneawp22
 User Credentials for Gomoku: username: admin and password: admin have been setup. Alternatively, you can just register as a new user.# 594
 # 594
 # 594
+# 594
